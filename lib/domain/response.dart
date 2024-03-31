@@ -31,5 +31,5 @@ class Response<T> {
 
   Response.error(this.message) : type = ResponseType.error, value = null;
   Response.warning(this.message) : type = ResponseType.warning, value = null;
-  Response.success(this.value) : type = ResponseType.error, message = '';
+  Response.success(this.value) : type = ResponseType.success, message = '';
 }

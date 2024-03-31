@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import '../Models/dictionary_info.dart';
-import '../Models/word.dart';
+import '../models/dictionary_info.dart';
+import '../models/word.dart';
 import '../response.dart';
 
 /// An interface representing operations for interacting with a dictionary.

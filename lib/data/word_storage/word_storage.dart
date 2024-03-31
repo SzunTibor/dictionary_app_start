@@ -1,4 +1,5 @@
 import 'dart:async';
+
 import '../../domain/models/word.dart';
 
 /// An interface representing storage operations for words.

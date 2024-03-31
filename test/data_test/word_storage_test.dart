@@ -1,8 +1,7 @@
+import 'package:dictionary_app/data/word_storage/map_storage.dart';
+import 'package:dictionary_app/data/word_storage/word_storage.dart';
+import 'package:dictionary_app/domain/models/word.dart';
 import 'package:flutter_test/flutter_test.dart';
-
-import '../../data/word_storage/map_storage.dart';
-import '../../data/word_storage/word_storage.dart';
-import '../../domain/models/word.dart';
 
 void main() {
   group('MapWordStorage', () {

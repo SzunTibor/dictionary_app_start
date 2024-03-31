@@ -1,6 +1,5 @@
+import 'package:dictionary_app/data/word_evaluator/simple_word_evaluator.dart';
 import 'package:flutter_test/flutter_test.dart';
-
-import '../../data/word_evaluator/simple_word_evaluator.dart';
 
 void main() {
   group('SimpleWordEvaluator', () {
